@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <div className="flex flex-col items-center justify-start gap-4 font-semibold text-center text-xs xl:text-xl w-full xl:w-3/4 h-full py-24 select-none">
-      <div className="flex flex-col items-center justify-center gap-3 md:gap-10 w-full md:w-[60%]">
+      <div className="flex flex-col items-center justify-center gap-3 w-full md:w-[60%]">
         <h1 className="text-lg xl:text-4xl font-bold p-2 rounded-md bg-slate-600 dark:bg-slate-200 text-slate-200 dark:text-slate-600 whitespace-nowrap">
           Zoltan Pozsonyi
         </h1>
