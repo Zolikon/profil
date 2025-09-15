@@ -4,9 +4,9 @@ function Certifications() {
   return (
     <div className="flex flex-col overflow-y-auto h-full md:w-4/5 items-center justify-center md:flex-row gap-3 md:flex-wrap">
       <CertIcon
-        name="Java SE 8 Programmer"
-        imageLink="cert_oracle_java.png"
-        link="https://www.credly.com/badges/6b5aa315-d589-4161-ba29-9e90b99ee805/linked_in_profile"
+        name="AWS Certified AI Practitioner"
+        imageLink="cert_aws_ai.png"
+        link="https://www.credly.com/badges/9c1602d6-c171-4c80-a2b4-8fa2b56dee31"
       />
       <CertIcon
         name="Generative AI Certified Professional"
@@ -17,6 +17,11 @@ function Certifications() {
         name="Certified Foundations Associate"
         imageLink="cert_oracle_foundations.png"
         link="https://catalog-education.oracle.com/ords/certview/sharebadge?id=A93A283539718B9EB317E51E69FAE2E60D94450E8FE87F184E849488DE191DF2"
+      />
+      <CertIcon
+        name="Java SE 8 Programmer"
+        imageLink="cert_oracle_java.png"
+        link="https://www.credly.com/badges/6b5aa315-d589-4161-ba29-9e90b99ee805/linked_in_profile"
       />
     </div>
   );
